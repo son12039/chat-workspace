@@ -71,3 +71,9 @@ END
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-01 15:50:45.432
 !MESSAGE Classpath changed for project: chat
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-01 15:58:15.462
+!MESSAGE Classpath changed for project: chat
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-01 15:58:15.463
+!MESSAGE Boot project REMOVED: chat
