@@ -1641,3 +1641,113 @@ java.lang.Exception: Resolve classpath: unable to resolve a project from : file:
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-01 21:38:28.444
 !MESSAGE Classpath changed for project: chatonline
+!SESSION 2024-09-01 22:04:50.257 -----------------------------------------------
+eclipse.buildId=4.32.0.20240606-1231
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-01 22:04:52.137
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-01 22:04:52.942
+!MESSAGE Logback config file: C:\Users\손정배\Desktop\Github.Local\chat-workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-09-01 22:04:53.201
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-09-01 22:04:53.201
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-09-01 22:04:53.411
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-09-01 22:04:53.411
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-09-01 22:04:56.842
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\손정배'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-01 22:04:56.899
+!MESSAGE Boot project ADDED: chatonline
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-01 22:04:56.900
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-01 22:04:56.901
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-09-01 22:04:56.910
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\project\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551\jre\bin\javaw.exe
+-cp
+C:\project\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\classes;C:\project\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\project\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/손정배/Desktop/Github.Local/chat-workspace/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1725195896909
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-01 22:04:56.911
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-09-01 22:04:56.915
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 61100
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-01 22:04:57.041
+!MESSAGE Exception caught during execution of command '[bash, --login, -c, which git]' in 'C:\Users\손정배', return code '1', error message '<3>WSL (2260) ERROR: CreateProcessEntryCommon:505: execvpe /bin/bash failed 2
+<3>WSL (2260) ERROR: CreateProcessEntryCommon:508: Create process not expected to return
+'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-09-01 22:05:15.677
+!MESSAGE Failed to fetch type data for element witn key: Ljava/lang/String;
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2024-09-01 22:05:15.677
+!MESSAGE Resolve classpath: unable to resolve a project from : file:/C:/Users/%EC%86%90%EC%A0%95%EB%B0%B0/Desktop/Github.Local/chat-workspace/chatonline
+!STACK 0
+java.lang.Exception: Resolve classpath: unable to resolve a project from : file:/C:/Users/%EC%86%90%EC%A0%95%EB%B0%B0/Desktop/Github.Local/chat-workspace/chatonline
+	at org.springframework.tooling.jdt.ls.commons.resources.ResourceUtils.getProject(ResourceUtils.java:66)
+	at org.springframework.tooling.jdt.ls.commons.resources.ResourceUtils.getJavaProject(ResourceUtils.java:37)
+	at org.springframework.tooling.jdt.ls.commons.java.JavaData.findElement(JavaData.java:79)
+	at org.springframework.tooling.jdt.ls.commons.java.JavaData.typeData(JavaData.java:67)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$16(STS4LanguageClientImpl.java:521)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-09-01 22:05:29.758
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-09-01 22:05:29.758
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-09-01 22:05:29.759
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-09-01 22:05:29.759
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-09-01 22:05:29.763
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-09-01 22:05:29.765
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-01 22:05:36.579
+!MESSAGE Classpath changed for project: chatonline
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-01 22:05:37.754
+!MESSAGE Classpath changed for project: chatonline
