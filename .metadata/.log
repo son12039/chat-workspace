@@ -1751,3 +1751,9 @@ java.lang.Exception: Resolve classpath: unable to resolve a project from : file:
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-01 22:05:37.754
 !MESSAGE Classpath changed for project: chatonline
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-01 22:29:39.731
+!MESSAGE Classpath changed for project: chatonline
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-01 22:29:40.281
+!MESSAGE Classpath changed for project: chatonline
