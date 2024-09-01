@@ -1,6 +1,1 @@
 INDEX VERSION 1.4+C:\Users\손정배\Desktop\Github.Local\chat-workspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-4200967491.index
-2693575291.index
-3896078790.index
-657531267.index
-2605874143.index
